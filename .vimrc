@@ -31,7 +31,7 @@ map <C-P> 5k
 
 if exists('+colorcolumn')
 	set colorcolumn=80
-else
+endif
 
 set number
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
