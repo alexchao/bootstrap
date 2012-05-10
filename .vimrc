@@ -1,10 +1,14 @@
 set encoding=utf-8
+set t_Co=256
 filetype plugin indent on
-
 filetype on
+
+let mapleader = ","
+let g:mapleader = ","
 
 syntax enable
 
+set number
 set wildmenu
 set wildmode=list:longest,full
 set ignorecase
@@ -13,7 +17,6 @@ set incsearch
 set hlsearch
 set cursorline
 set autoread
-
 set splitright
 
 map = gt
@@ -33,5 +36,6 @@ if exists('+colorcolumn')
 	set colorcolumn=80
 endif
 
-set number
+map <leader>q :q!<CR>
+
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
