@@ -37,5 +37,8 @@ if exists('+colorcolumn')
 endif
 
 map <leader>q :q!<CR>
+map <leader>ta :tabe 
+map <leader>v :vsp 
 
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+highlight Search term=bold cterm=NONE ctermfg=NONE ctermbg=DarkGrey gui=NONE guifg=NONE guibg=DarkGrey
