@@ -36,6 +36,7 @@ if exists('+colorcolumn')
 	set colorcolumn=80
 endif
 
+map <leader>w :w<CR>
 map <leader>q :q!<CR>
 map <leader>ta :tabe 
 map <leader>v :vsp 
