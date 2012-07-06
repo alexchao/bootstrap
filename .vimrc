@@ -23,6 +23,7 @@ map = gt
 map - gT
 map <F5> :%s/
 map <space> /
+noremap <CR> :nohlsearch<CR>
 
 map <C-H> <C-W>h
 map <C-J> <C-W>j
