@@ -34,6 +34,7 @@ map <C-P> 5k
 
 if exists('+colorcolumn')
 	set colorcolumn=80
+	hi ColorColumn cterm=None ctermfg=None ctermbg=233 guibg=#121212
 endif
 
 map <leader>w :w<CR>
@@ -41,5 +42,6 @@ map <leader>q :q!<CR>
 map <leader>ta :tabe 
 map <leader>v :vsp 
 
-highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-highlight Search term=bold cterm=NONE ctermfg=NONE ctermbg=DarkGrey gui=NONE guifg=NONE guibg=DarkGrey
+highlight LineNr term=bold cterm=None ctermfg=DarkGrey ctermbg=None gui=None guifg=DarkGrey guibg=None
+highlight Search term=bold cterm=None ctermfg=None ctermbg=52 gui=None guifg=None guibg=#5f0000
+highlight CursorLine term=None cterm=None ctermfg=None ctermbg=233 gui=None guifg=None guibg=#121212
