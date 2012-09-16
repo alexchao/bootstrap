@@ -19,6 +19,8 @@ set cursorline
 set autoread
 set splitright
 
+set scrolloff=8
+
 map = gt
 map - gT
 map <F5> :%s/
