@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/alexchao/workspace/bootstrap/.git'
+let g:netrw_dirhist_2='/Users/alexchao/workspace/bootstrap/.vim'
+let g:netrw_dirhist_3='/Users/alexchao/workspace/zurry/phaser_tutorial_02'
+let g:netrw_dirhist_4='/Users/alexchao/workspace/h4la/w4laenv/work4la/work4la'
+let g:netrw_dirhist_5='/Users/alexchao/.vim/ftplugin'
